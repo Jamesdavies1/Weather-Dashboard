@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <title>Weather app</title>
 </head>
 
@@ -15,9 +17,16 @@
     <div id="header">
         <h1>Weather dashboard</h1>
     </div>
-        
+
     <div id="citylist">
-        <p>city list</p>
+        <form id="city-form">
+            <label id="input-title" for="city-input">Add city</label>
+            <input type="text" id="city-input">
+            <br>
+
+            <!-- Button triggers new movie to be added -->
+            <input id="add-city" type="submit" value="Check weather">
+        </form>
     </div>
 
     <div id="mainweather">
@@ -27,7 +36,7 @@
     <div id="fivedayforecast">
         <p>5 day forecast</p>
     </div>
-    
+
     <footer class="footer">
         <p>copyright&#169;</p>
     </footer>

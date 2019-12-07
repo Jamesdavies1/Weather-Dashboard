@@ -1,8 +1,8 @@
 #header{
 text-align: center;
 width: 100%;
-height: 100px;
-padding-top: 20px;
+height: 15%;
+padding-top: 35px;
 color: white;
 background-color: black;
 }
@@ -11,25 +11,40 @@ background-color: black;
 border-style: solid;
 width: 25%;
 float: left;
-height: 100%;
+height: 80%;
+}
+
+#input-title{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+#add-city{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+#city-input{
+    margin-right: 10%;
 }
 
 #mainweather{
 border-style: solid;
 width: 75%;
 float: right;
-height: 50%;
+height: 40%;
 }
 
 #fivedayforecast{
 border-style: solid;
 width: 75%;
 float: right;
-height: 50%;
+height: 40%;
 }
 
 .footer{
-    padding-top: 10px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -42,6 +57,7 @@ height: 50%;
     border-left: none;
     border-right: none;
     border-bottom: none;  
+    height: 5%
   }
   
   html, body {
