@@ -20,17 +20,23 @@
 
     <div id="citylist">
         <form id="city-form">
-            <label id="input-title" for="city-input">Add city</label>
+            <label id="input-title">Add city</label>
             <input type="text" id="city-input">
             <br>
 
             <!-- Button triggers new movie to be added -->
             <input id="add-city" type="submit" value="Check weather">
+            <ul class="history"></ul>
         </form>
     </div>
 
     <div id="mainweather">
-        <p>main weather</p>
+        <p id="name"></p>
+        <p id="temperature"></p>
+        <p id="humidity"></p>
+        <p id="windspeed"></p>
+        <p id="uvindex"></p>
+
     </div>
 
     <div id="fivedayforecast">
