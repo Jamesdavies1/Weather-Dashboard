@@ -1,0 +1,21 @@
+body{
+    background-image: url(../images/weather/weather.png);
+    color: black;
+}
+
+h1{
+    color: aquamarine;
+}
+
+.card-body{
+    background-image: url(../images/weather/weather.png);
+        border-width: 0;
+}
+
+.p-2{
+    color: black;
+}
+
+.col-lg-3{
+    background-image: url(../images/weather/weather.png);
+}
